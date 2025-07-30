@@ -9,7 +9,7 @@ export const AppContextProvider=(props)=>{
 
             axios.defaults.withCredentials=true
 
-const backendUrl=import.meta.env.VITE_BACKEND_URL
+const backendUrl="https://mern-authenticate-backend-icbo.onrender.com/";
 const [isLoggedIn, setisLoggedIn] = useState(false);
 const [userData, setUserData] = useState(false);
 
